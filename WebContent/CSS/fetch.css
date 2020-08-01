@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+
+
+body{
+	background-color:#848471;
+	background-image:url("injection2.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-position:center;	
+}
+
+.tablecontent{
+	
+	border-collapse:collapse;
+	margin:100px 25px 0px 270px;
+	font-size:0.5cm;
+	min-width:300px;
+	background-color:rgba(0, 0, 0, 0.2);
+	color:white;
+	border:1px solid black;
+	
+}
+h2{
+	color:white;
+	font-size:0.9cm;
+	text-align:center;
+	top:20px;
+}
+.tablecontent thead tr{
+	
+	background-color:rgba(0, 0, 0, 0.7);
+	color:white;
+	text-align:left;
+	font-weight:bold;
+}
+.tablecontent th,.tablecontent td
+{
+	padding:14px 18px;
+}
+.tablecontent tbody tr{
+	border-bottom:1px solid black;
+	
+}
+.tablecontent tbody tr:nth-child(5)
+{
+	background:green;
+}
+.tablecontent tbody tr:last-of-type{
+	border-bottom:2px solid #black;
+}

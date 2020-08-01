@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	background-color:#848471;
+	background-image:url("plasmaheader.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	backgrund-position:center;
+	
+}
+#menu{
+	width:100%;
+}
+#menu ul {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+}
+
+#menu ul li {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    position: relative;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 14px;
+}
+
+#menu ul li :hover {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+#menu ul li ul li {
+    float: none;
+    top: 40px;
+}
+
+#menu ul ul {
+    position: absolute;
+    display: none;
+}
+
+#menu ul li:hover>ul {
+    display: block;
+}
+
+
+
+
+
+.setting {
+    margin-top: 20px;
+    color: white;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+

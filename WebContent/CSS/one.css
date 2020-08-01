@@ -1,0 +1,141 @@
+@charset "ISO-8859-1";
+body{
+	background-color:#848471;
+	background-image:url("injection.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 75%;
+	backgrund-position:center;
+	
+}
+#menu{
+	width:100%;
+	height:650px;
+	
+}
+
+#menu ul {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+}
+
+#menu ul li {
+    background-color:rgba(0, 0, 0, 0.7);
+    width: 210px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    position: relative;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align:center;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#menu ul ul {
+    position: absolute;
+    display: none;
+}
+
+
+
+#menu ul li :hover {
+	
+   font-weight:bold;     
+}
+
+#menu ul li ul{
+	display:none;
+	top: 50px;
+	right:0px;
+
+}
+#menu ul li .setting{
+	 color: white;
+	
+}
+#menu ul li ul li {
+    float: none;
+    
+ }
+
+#menu ul li:hover ul{
+	display:block;
+
+   
+ }
+ 
+ 
+
+#about-heading h3,
+#team-heading h3 {
+    font-weight: 700;
+    text-align: center;
+    color: black;
+   padding-top:3%;
+}
+
+#about-underline,
+#team-heading-underline {
+    height: 2px;
+    width: 60px;
+    background-color: #0d0218;
+    margin: 0 auto 30px auto;
+}
+#about-content{
+	padding:0px 25px 0px 25px;
+}
+
+
+
+#about {
+   
+    background-color:white;
+ height: 280px;
+	
+} 
+
+
+
+#underline {
+    height: 3px;
+    width: 100px;
+    background-color:white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+   
+     margin: 4px auto 0px auto;
+}
+#footer-copyright {
+    text-align: center;
+    background-color: black;
+    margin-bottom: 100px;
+    bottom: 10%;
+    color:white;
+}
+#footer {
+    background-color: grey;
+    color: white;
+    height: 10%;
+   
+}
+#contactus h3 {
+    padding-left: 25px;
+    text-align:center;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+
+#contactus {
+    padding: 10px;
+    padding-bottom:50px;
+}
+
+	
+}
